@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class Test {
+public class DbConnection {
     public static void main(String[] args) {
         String url = "jdbc:mysql://127.0.0.1:3306/atm_banking";
         String username = "isaac";
