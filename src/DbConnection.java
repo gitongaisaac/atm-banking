@@ -4,7 +4,8 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class DbConnection {
-    public static void main(String[] args) {
+
+    public static void dbConnection() {
         String url = "jdbc:mysql://127.0.0.1:3306/atm_banking";
         String username = "isaac";
         String password = "D3F 15@@c 53rv3r";
@@ -29,5 +30,9 @@ public class DbConnection {
         } catch (Exception e) {
             System.out.println(e);
         }
+    }
+
+    public static void main(String[] args) {
+        dbConnection();
     }
 }
